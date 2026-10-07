@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1F2937;
+  background-color: #F7F8FA;
+}
+h2{
+  font-family: 'Poppins', Arial, sans-serif;
+  color: #0F1B2D;
+}
+header img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+footer img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+.footer-logo {
+  display: flex;
+  align-items: flex-start;
+  gap: 3px;
+}
+.footer-logo img{
+      margin-top: -10px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #FF6B2C;
+  outline-offset: 2px;
+} 
+
+ul {
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.conteneur {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.en-tete {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E5E7EB;
+}
+.en-tete-contenu {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.en-tete-contenu nav {
+    margin-left: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #0F1B2D;
+}
+
+.logo::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  margin-left: 8px;
+  background-color: #FF6B2C;
+  border-radius: 50%;
+}
+
+.menu {
+  display: flex;
+  gap: 32px;
+}
+
+.menu a {
+  font-weight: 500;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+}
+
+.menu a:hover {
+  color: #FF6B2C;
+}
+
+.menu .lien-actif {
+  color: #FF6B2C;
+  font-weight: 600;
+  border-bottom-color: #FF6B2C;
+}
+
+.contact-title h2 {
+    font-size: 32px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+
+
+.pied-de-page {
+  padding: 48px 0 32px;
+  background-color: #0F1B2D;
+  color: #FFFFFF;
+}
+
+.pied-haut {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.logo-clair {
+  color: #FFFFFF;
+}
+
+.slogan {
+  margin-top: 8px;
+  font-size: 14px;
+  font-style: italic;
+  color: #CBD5E1;
+}
+
+.menu-pied {
+  gap: 24px;
+}
+
+.menu-pied a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #E2E8F0;
+}
+
+.pied-bas {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  font-size: 13px;
+  color: #94A3B8;
+}
