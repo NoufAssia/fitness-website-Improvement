@@ -17,6 +17,17 @@ Un dépôt GitHub contenant:
 Programmes, 
 À propos, 
 Contactez-nous)
+- Ajouter un logo 
+
+#### Détails des actions:
+
+- [x] Mardi (Matin)  -->  Comprendre l'objectif du projet, comprendre les tâches du projet, analyser et comprendre le code source, rédiger le plan de travail, crée Un dépôt GitHub, Lier Git à GitHub, créer les fichiers nécessaires.
+- [x] Mardi (Après-midi) -->  Transformer le site one pager en un site de plusieurs pages reliées entre elles.
+- [x] Mardi (soirée) --> Ajouter un logo au site web.
+- [x] Mercredi (Matin) --> Héberger le site sur les pages github.
+- [x] Mercredi (Après-midi) --> Créer le contenu HTML de la page de contact.
+- [x] soumettre la première phase du projet.
+
 
 ## Phase 2 - Design, amélioration et finalisation:
 
@@ -30,4 +41,8 @@ Contactez-nous)
 - fichier de documentation du code.
 - link of the github pages host.
 
+#### Détails des actions:
 
+- [ ] Terminer la page de contact.
+- [ ] Concevoir les pages dans Figma.
+- [ ] Rendre le site adaptatif.
