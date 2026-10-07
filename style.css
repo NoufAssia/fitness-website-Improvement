@@ -20,6 +20,26 @@ h1, h2, h3, h4 {
   font-family: 'Poppins', Arial, sans-serif;
   color: #0F1B2D;
 }
+header img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+footer img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+.footer-logo {
+  display: flex;
+  align-items: flex-start;
+  gap: 3px;
+}
+
+.footer-logo img{
+      margin-top: -10px;
+}
+
 
 a {
   color: inherit;
@@ -168,9 +188,10 @@ button:focus-visible {
   height: 80px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
-
+.en-tete-contenu nav {
+    margin-left: auto;
+}
 .logo {
   display: flex;
   align-items: center;
