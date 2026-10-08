@@ -29,31 +29,48 @@
     </div>
   </header>
   <main>
-    <section>
+    <section class="contact-section">
         <div class="contact-title">
           <h2>Contactez-nous</h2>
+          <br>
         </div>
         <form class="support">
-          <h2>Une question, une suggestion ou besoin d’assistance ? N’hésitez pas à nous contacter. Nous sommes à votre écoute.</h2>
-          <textarea rows="4" cols="20" placeholder="Ecrire ici ..."></textarea>
-          <input type="email" placeholder="Email"/>
+          <h2>Besoin d'aide ?</h2>
+          <br>
+          <p>Une question, une suggestion ou besoin d’assistance ? N’hésitez pas à nous contacter. Nous sommes à votre écoute.</p>
+          <br>
+          <label for="message">Votre message</label>
+          <textarea rows="4" cols="20" id="message" placeholder="Ecrire ici ..."></textarea>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Email"/>
           <button>Envoyer</button>
           </form>
           <form class="newsletter">
               <h2>Inscription à la newsletter</h2>
-              <input type="email" placeholder="Email"/>
+              <br>
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Email"/>
+              <label for="nom">Nom et Prénom</label>
               <input type="text" placeholder="Nom et Prénom"/>
               <button>Abonner</button>
           </form>
-          <div>
+          <div class="contact-details">
           <div class="infos">
             <h2>Nous trouver</h2>
+            <br>
             <p><b>Adresse:</b> 25, Rue Ibn Sina, Maarif, Casablanca 20100, Maroc</p>
-            <p><b>Téléphone:</b> +212 5 22 45 67 89</p>
-            <p><b>Email:</b> <u>contact@elanfitness.ma</u></p>
+            <p><b>Téléphone:</b> <a href="tel:+212522456789">+212 5 22 45 67 89</a></p>
+            <p><b>Email:</b> <a href="mailto:contact@elanfitness.ma">contact@elanfitness.ma</a></p>
           </div>
-          <div>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d26593.637338393462!2d-7.6636452617095285!3d33.57403489377524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s25%2C%20Rue%20Ibn%20Sina%2C%20Maarif%2C%20Casablanca%2020100%2C%20Maroc!5e0!3m2!1sen!2sma!4v1791384858218!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+          <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d26593.637338393462!2d-7.6636452617095285!3d33.57403489377524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s25%2C%20Rue%20Ibn%20Sina%2C%20Maarif%2C%20Casablanca%2020100%2C%20Maroc!5e0!3m2!1sen!2sma!4v1791384858218!5m2!1sen!2sma"
+              width="600"
+              height="450"
+              style="border:0;"
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="strict-origin-when-cross-origin"
+              title="Localisation d'Élan Fitness à Casablanca">
               </iframe>
           </div>
         </div>
