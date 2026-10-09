@@ -15,16 +15,24 @@ body {
   color: #1F2937;
   background-color: #F7F8FA;
 }
-h1{
+
+.contact-title h1{
+    font-size: 48px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 40px;
   text-align: center;
   font-family: 'Poppins', Arial, sans-serif;
   color: #0F1B2D;
-  padding-bottom: 20px;
 }
 header img {
     width: 60px;
     height: 60px;
     object-fit: contain;
+}
+
+.support h2, .support p, .newsletter h2, .infos h2, #email-newsletter, #end-p{
+  margin-bottom: 20px;
 }
 footer img {
   width: 60px;
@@ -48,6 +56,12 @@ button:focus-visible {
   outline: 3px solid #FF6B2C;
   outline-offset: 2px;
 } 
+
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #FF6B2C;
+  outline-offset: 0.5px;
+}
 
 ul {
   list-style: none;
@@ -109,20 +123,16 @@ img {
 }
 
 .menu a:hover {
-  color: #FF6B2C;
+  color: #C2410C;
 }
 
 .menu .lien-actif {
-  color: #FF6B2C;
+  color: #C2410C;
   font-weight: 600;
-  border-bottom-color: #FF6B2C;
+  border-bottom-color: #C2410C;
 }
 
-.contact-title h2 {
-    font-size: 32px;
-    margin-bottom: 16px;
-    text-align: center;
-}
+
 
 .contact-section {
   max-width: 1200px;
@@ -157,7 +167,7 @@ img {
   padding: 12px 24px;
   border: none;
   border-radius: 6px;
-  background-color: #FF6B2C;
+  background-color: #C2410C;
   color: #FFFFFF;
   font-weight: 600;
   cursor: pointer;
@@ -207,7 +217,6 @@ i{
 
 
 
-
 .pied-de-page {
   padding: 48px 0 32px;
   background-color: #0F1B2D;
@@ -245,7 +254,7 @@ i{
 
 .pied-bas {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin-top: 24px;
   font-size: 13px;
   color: #94A3B8;

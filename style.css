@@ -20,6 +20,8 @@ h1, h2, h3, h4 {
   font-family: 'Poppins', Arial, sans-serif;
   color: #0F1B2D;
 }
+
+
 header img {
     width: 60px;
     height: 60px;
@@ -57,7 +59,7 @@ img {
 
 a:focus-visible,
 button:focus-visible {
-  outline: 3px solid #FF6B2C;
+  outline: 3px solid #C2410C;
   outline-offset: 2px;
 }
 
@@ -94,14 +96,15 @@ button:focus-visible {
   margin-bottom: 12px;
 }
 
-.section-titre p {
-  color: #4B5563;
+.section-titre p.sur-titre, .apropos-texte p.sur-titre {
+  color: #C2410C;
 }
+
 
 .sur-titre {
   font-size: 14px;
   font-weight: 600;
-  color: #FF6B2C;
+  color: #C2410C;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 12px;
@@ -118,13 +121,13 @@ button:focus-visible {
 }
 
 .bouton-principal {
-  background-color: #FF6B2C;
-  border: 1px solid #FF6B2C;
+  background-color: #C2410C;
+  border: 1px solid #C2410C;
   color: #FFFFFF;
 }
 
 .bouton-principal:hover {
-  background-color: #F05817;
+  background-color: #C2410C;
 }
 
 .bouton-secondaire {
@@ -222,13 +225,13 @@ button:focus-visible {
 }
 
 .menu a:hover {
-  color: #FF6B2C;
+  color: #C2410C;
 }
 
 .menu .lien-actif {
-  color: #FF6B2C;
+  color: #C2410C;
   font-weight: 600;
-  border-bottom-color: #FF6B2C;
+  border-bottom-color: #C2410C;
 }
 
 .hero {
@@ -245,11 +248,12 @@ button:focus-visible {
   flex: 7;
 }
 
-.hero-texte h1 {
+.hero-texte h1, .section-titre h1, .apropos-texte h1 {
   font-size: 48px;
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 24px;
+
 }
 
 .hero-description {
@@ -301,7 +305,7 @@ button:focus-visible {
   font-family: 'Poppins', Arial, sans-serif;
   font-size: 36px;
   font-weight: 800;
-  color: #FF6B2C;
+  color: #C2410C;
 }
 
 .carte-avantage {
@@ -335,7 +339,7 @@ button:focus-visible {
 }
 
 .apropos-texte h2 {
-  font-size: 36px;
+  font-size: px;
   line-height: 1.2;
   margin-bottom: 20px;
 }
@@ -470,7 +474,7 @@ button:focus-visible {
   font-family: 'Poppins', Arial, sans-serif;
   font-size: 30px;
   font-weight: 800;
-  color: #FF6B2C;
+  color: #C2410C;
 }
 
 .prix span {
@@ -506,7 +510,7 @@ button:focus-visible {
 }
 
 .formule-populaire {
-  border: 2px solid #FF6B2C;
+  border: 2px solid #C2410C;
   box-shadow: 0 10px 25px rgba(255, 107, 44, 0.2);
 }
 
@@ -516,7 +520,7 @@ button:focus-visible {
   left: 50%;
   transform: translateX(-50%);
   padding: 4px 14px;
-  background-color: #FF6B2C;
+  background-color: #C2410C;
   border-radius: 999px;
   font-size: 12px;
   font-weight: 700;
@@ -561,7 +565,7 @@ button:focus-visible {
 
 .pied-bas {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin-top: 24px;
   font-size: 13px;
   color: #94A3B8;

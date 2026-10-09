@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Élan Fitness, salle de sport à Casablanca : musculation, yoga, cardio et boxe fitness avec des coachs diplômés. Réservez votre cours d'essai gratuit.">
-  <title>Élan Fitness | Salle de sport à Casablanca</title>
+  <title>Contact | Salle de sport à Casablanca</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
 <body>
       <header class="en-tete">
     <div class="conteneur en-tete-contenu">
-      <img src="img/logo.png" alt="Logo en forme de f humain minimaliste">
+      <a href="index.html"><img src="img/logo.png" alt="Logo en forme de f humain minimaliste"></a>
       <a href="index.html" class="logo">Élan Fitness</a>
 
       <nav aria-label="Navigation principale">
@@ -34,36 +34,31 @@
     <section class="contact-section">
         <div class="contact-title">
           <h1>Contactez-nous</h1>
-          <br>
+ 
         </div>
         <form class="support">
           <h2>Besoin d'aide ?</h2>
-          <br>
           <p>Une question, une suggestion ou besoin d’assistance ? N’hésitez pas à nous contacter. Nous sommes à votre écoute.</p>
-          <br>
           <label for="message">Votre message</label>
-          <textarea rows="4" cols="20" id="message" placeholder="Ecrire ici ..."></textarea>
+          <textarea rows="4" cols="20" name="message" id="message" placeholder="Ecrire ici ..." required></textarea>
           <label for="email">Email</label>
-          <input type="email" id="email" placeholder="Email"/>
-          <button>Envoyer</button>
+          <input type="email" id="email" name="email" placeholder="Email" required/>
+          <button type="submit">Envoyer</button>
           </form>
           <form class="newsletter">
               <h2>Inscription à la newsletter</h2>
-              <br>
-              <label for="email">Email</label>
-              <input type="email" id="email" placeholder="Email"/>
+              <label for="email-newsletter">Email</label>
+              <input type="email" name="email-newsletter" id="email-newsletter" placeholder="Email" required/>
               <label for="nom">Nom et Prénom</label>
-              <input type="text" placeholder="Nom et Prénom"/>
-              <button>Abonner</button>
+              <input type="text"  id="nom" name="nom" placeholder="Nom et Prénom" required/>
+              <button type="submit">Abonner</button>
           </form>
           <div class="contact-details">
           <div class="infos">
             <h2>Nous trouver</h2>
-            <br>
             <p><b>Adresse:</b> 25, Rue Ibn Sina, Maarif, Casablanca 20100, Maroc</p>
             <p><b>Téléphone:</b> <a href="tel:+212522456789">+212 5 22 45 67 89</a></p>
-            <p><b>Email:</b> <a href="mailto:contact@elanfitness.ma">contact@elanfitness.ma</a></p>
-            <br>
+            <p id ="end-p"><b>Email:</b> <a href="mailto:contact@elanfitness.ma">contact@elanfitness.ma</a></p>
             <div class="icones">
             <i class="fa-brands fa-square-instagram"></i>
             <i class="fa-brands fa-facebook"></i>
@@ -92,7 +87,7 @@
       <div class="pied-haut">
         <div>
           <div class="footer-logo">
-          <img src="img/footer-logo.png" alt="Logo en forme de f humain minimaliste">
+            <a href="index.html"><img src="img/footer-logo.png" alt="Logo en forme de f humain minimaliste"></a>
             <div>
               <p class="logo logo-clair">Élan Fitness</p>
               <p class="slogan">Ton énergie, ton rythme.</p>
@@ -112,7 +107,6 @@
       </div>
 
       <div class="pied-bas">
-        <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
         <p>&copy; 2026 Élan Fitness — Projet pédagogique fictif</p>
       </div>
 
