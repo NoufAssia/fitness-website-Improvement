@@ -49,9 +49,7 @@ Contactez-nous)
 
 #### Détails des actions:
 
-- [ ] Terminer la page de contact.
-- [ ] Concevoir les pages dans Figma.
-- [ ] Rendre le site adaptatif.
+- [x] Terminer la page de contact.
 - [ ] Terminer la documentation des acquis.
 - [ ] Soumettre la deuxième phase du projet.
 
