@@ -1,5 +1,41 @@
 # What i learned:
 
+
+## Agile / Scrum:
+
+- Agile:
+
+    - Agile is a way of managing projects by dividing the work into small goals and delivering results step by step.
+        
+        - Flexibility: Adapt to changes and new requirements.
+        - Collaboration: Work closely with the team and the client.
+        - Continuous feedback: Improve the product regularly.
+        - Frequent delivery: Deliver small, working parts of the project instead of waiting until the end.
+
+- Scrum:
+
+    - Scrum is a framework used to apply Agile principles. It organizes work into short periods called Sprints, usually lasting 1–4 weeks.
+
+        - Main roles:
+
+            - Product Owner: Defines priorities and manages the Product Backlog.
+            - Scrum Master: Helps the team follow Scrum and removes obstacles.
+            - Developers: Build the product.
+        
+        - Main events
+
+            - Sprint Planning: Decide what to accomplish during the Sprint.
+            - Daily Scrum: A short daily meeting to coordinate work.
+            - Sprint Review: Present the results and collect feedback.
+            - Sprint Retrospective: Discuss what went well and what to improve.
+
+        - Main artifacts
+
+            - Product Backlog: List of all requested features and tasks.
+            - Sprint Backlog: Tasks selected for the current Sprint.
+            - Increment: The usable product improvement completed during the Sprint.
+
+            
 ## what is the life cycle of a website:
 
 - Zoning: is the process of sketching a webpage’s basic layout by dividing it into functional blocks, such as headers, navigation bars, hero sections, and footers—before adding colors, images, or detailed text.
