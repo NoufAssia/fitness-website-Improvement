@@ -9,6 +9,7 @@ html {
 }
 
 body {
+  min-width: 320px;
   font-family: 'Inter', Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -55,6 +56,7 @@ ul {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 a:focus-visible,
@@ -62,6 +64,7 @@ button:focus-visible {
   outline: 3px solid #C2410C;
   outline-offset: 2px;
 }
+
 
 .conteneur {
   width: 100%;

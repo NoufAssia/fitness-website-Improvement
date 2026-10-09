@@ -31,7 +31,7 @@ header img {
     object-fit: contain;
 }
 
-.support h2, .support p, .newsletter h2, .infos h2, #email-newsletter, #end-p{
+.support h2, .support p, .newsletter h2, .infos h2, #end-p{
   margin-bottom: 20px;
 }
 footer img {
@@ -60,7 +60,7 @@ button:focus-visible {
 input:focus-visible,
 textarea:focus-visible {
   outline: 3px solid #FF6B2C;
-  outline-offset: 0.5px;
+  outline-offset: 0px;
 }
 
 ul {
@@ -155,7 +155,6 @@ img {
 .newsletter input {
   width: 100%;
   padding: 12px 14px;
-  margin-top: 12px;
   border: 1px solid #CBD5E1;
   border-radius: 6px;
   font-family: inherit;
@@ -173,11 +172,14 @@ img {
   cursor: pointer;
 }
 
-.support button:hover,
-.newsletter button:hover {
-  opacity: 0.9;
-}
 
+
+.support label,
+.newsletter label {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
 
 .contact-details {
   display: flex;
