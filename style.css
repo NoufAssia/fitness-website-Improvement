@@ -338,11 +338,6 @@ button:focus-visible {
   flex: 7;
 }
 
-.apropos-texte h2 {
-  font-size: px;
-  line-height: 1.2;
-  margin-bottom: 20px;
-}
 
 .apropos-texte p {
   color: #4B5563;
