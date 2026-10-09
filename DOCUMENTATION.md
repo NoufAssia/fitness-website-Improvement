@@ -22,7 +22,9 @@
     - Write a relevant meta description.
     - Use a clear heading hierarchy.
     - Add descriptive alternative text to images.
-    
+    - Use descriptive links.
+    - Improve technical SEO.
+    - Make the website mobile-friendly.
 
 ## HTML5 (HyperText Markup Language):
 
