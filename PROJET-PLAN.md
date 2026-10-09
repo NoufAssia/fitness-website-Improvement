@@ -50,6 +50,6 @@ Contactez-nous)
 #### Détails des actions:
 
 - [x] Terminer la page de contact.
-- [ ] Terminer la documentation des acquis.
-- [ ] Soumettre la deuxième phase du projet.
+- [x] Terminer la documentation des acquis.
+- [x] Soumettre la deuxième phase du projet.
 
