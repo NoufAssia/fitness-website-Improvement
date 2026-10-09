@@ -42,8 +42,7 @@ Contactez-nous)
 
 ### Livrables:
 
-- respondive organized website with clean style, logo.
-- figma design for multiple pages.
+- Organized website with clean style, logo.
 - DOCUMENTATION.md.
 - link of the github pages host.
 
